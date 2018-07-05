@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>IronSkydive</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="images.png" type="image/x-icon">
+    </head>
+    <body>
+        <nav class="nav-bar-item">
+            <ul>
+                <li>
+                    <a href="#">Day Structure</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Schedule</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="header">
+            <h1>IronSkydive</h1>
+            <h2>Let the trip begin</h2>
+            <aside class="quote">
+                <p class="italic">
+                    "The best experience of our lives"
+                </p>
+                <p>
+                    Ariel Quiñones & Gonzalo Manrique, Ironhack CEOs
+                </p>
+
+            </aside>
+        </header>
+        <div class="container">
+            <section class="general-information">
+                <div class="dark-background container">
+                    <article class="col col-3">
+                        <h3>Hello!</h3>
+                        <p class="text">Welcome to IronSkydive, the best adventure you will ever have.</p>
+                        <a href="#" class="link-btn">Learn more</a>
+                    </article>
+
+                    <article class="col col-3">
+                        <h3>About us</h3>
+                        <p class="text">We like a lot programming websites,but we also love practice sport.</p>
+                        <a href="#" class="link-btn">Watch Video</a>
+                    </article>
+                    <article class="col col-3">
+                        <h3>Wanna join?</h3>
+                        <p class="text">Join our fitness programto be in good shape while learning.</p>
+                        <a href="#" class="link-btn">Register</a>
+                    </article>
+                    <div class="clearfix"></div>
+
+                </div>
+            </section>
+        </div>
+        <section class="structure">
+            <div class="service-box">
+                <h3>How do we structure the day</h3>
+                <article class="col">
+                    <h4>Training</h4>
+                    <p>We teach all the necessary things to jump from the plane without any kind of
+                        problem.</p>
+                </article>
+
+                <article class="col">
+                    <h4>Get ready</h4>
+                    <p>You are already prepared,you just need the suit and parachute. All sizes
+                        available.
+                    </p>
+                </article>
+
+                <article class="col">
+                    <h4>Fly</h4>
+                    <p>Yoy are ready,and the plane is waiting for us in the hangar. Let's fly!.</p>
+                </article>
+
+                <article class="col">
+                    <h4>Jump!</h4>
+                    <p>You have done the most complicated. Just one step left...jump!</p>
+                </article>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="team">
+                <div class="dark-background container">
+                    <h3>Team</h3>
+                    <p class="section-text">Our team collectively has 75 years of experience. Odds
+                        are, when ypu jump out of the plane wibth these professionals,you won't go
+                        splat.</p>
+                    <hr>
+                    <article class="member-name col col-3">
+                        <b>Team member 1
+                        </b>
+                    </article>
+                    <article class="member-name col col-3">
+                        <b>
+                            Team member 2</b>
+                    </article>
+                    <article class="member-name col col-3">
+                        <b>
+                            Team member 3</b>
+                    </article>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+        </div>
+        <section class="container schedule">
+            <div>
+                <h3>Schedule</h3>
+                <table class="schedule-table" cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:00 - 11:00</td>
+                            <td></td>
+                            <td></td>
+                            <td>X</td>
+                            <td></td>
+                            <td>X</td>
+                            <td>X</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 - 14:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>X</td>
+                            <td>X</td>
+                        </tr>
+                        <tr>
+                            <td>15:00 - 17:00</td>
+                            <td></td>
+                            <td></td>
+                            <td>X</td>
+                            <td>X</td>
+                            <td>X</td>
+                            <td>X</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Schedule a Time Slot</h3>
+                <form action="/register" class="slot-form">
+                    <div class="slot-form-container">
+                        <label for="e-mail">Email</label>
+                        <input type="e-mail">
+                    </div>
+                    <div class="slot-form-container">
+                        <label for="participants">Participants</label>
+                        <input type="number">
+                    </div>
+                    <div class="slot-form-container">
+                        <label for="date">Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="slot-form-container">
+                        <label for="time">Time</label>
+                        <select>
+                            <option value="early">9:00 - 11:00</option>
+                            <option value="mid">12:00 - 14:00</option>
+                            <option value="late">15:00 - 17:00</option>
+                        </select>
+                    </div>
+                    <div class="slot-form-container">
+                        <button type="submit" class="submit">Reseve Your Slot</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="dark-background footer-page">
+            <div class="container">
+                <section class=" col col-3 padd-footer">
+                    <h5>Contact Information</h5>
+                    <address class="address">
+                        <pre> ironskydive 33 rue la fayette,</pre>
+                        <pre> 75009 paris,</pre>
+                        <pre> france +33 (0) 619 193 088</pre>
+                    </address>
+                    <h5>Follow Us.</h5>
+                    <ul>
+                        <li>
+                            <a class="footer-link" href="#">
+                                Twitter.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                Facebook.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                Instagram.</a>
+                        </li>
+                    </ul>
+                </section>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099"
+                    class="map-frame"
+                    frameborder="0"
+                    style="border:0"
+                    allowfullscreen="allowfullscreen"></iframe>
+                <div class="clearfix"></div>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
